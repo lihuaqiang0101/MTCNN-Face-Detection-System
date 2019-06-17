@@ -114,3 +114,7 @@ indexs = torch.nonzero(torch.gt(confidence,0.6))
             rnetboxs.append([x1,y1,x2,y2,confidence[index][0]])
   做非极大抑制得出最终的框
   O网络与R网络的流程是相同的，只不过在缩放图片的时候是将24x24的改为了48x48
+最终的测试效果如下：
+
+
+![images](https://github.com/lihuaqiang0101/MTCNN-Face-Detection-System/blob/master/images/mtcnntest.jpg)
