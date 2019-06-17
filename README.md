@@ -17,6 +17,10 @@
 在测试过程中的流程如下：
 P网络：
 对测试图片做图像金字塔：
+
+![images](https://github.com/lihuaqiang0101/MTCNN-Face-Detection-System/blob/master/images/%E5%9B%BE%E5%83%8F%E9%87%91%E5%AD%97%E5%A1%94.png)
+
+
 scale = 1
 while min_len > 12:
   scale *= 0.7
