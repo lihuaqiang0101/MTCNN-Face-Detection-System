@@ -6,3 +6,5 @@
 
 第二步：对训练数据进行采样：DataSet.py
 第三步：构建网络：Net.py
+
+![images][https://github.com/lihuaqiang0101/MTCNN-Face-Detection-System/blob/master/images/net.png]
